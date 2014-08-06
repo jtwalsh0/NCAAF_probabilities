@@ -2,17 +2,17 @@ College Football Probabilities
 ===================
 
 This software creates an interactive webpage of college football probabilities using odds and lines from several online betting markets:
-* (Bovada)[http://sports.bovada.lv/sports-betting/football-futures.jsp]
-* (GT Bets)[http://www.gtbets.eu/betting1.asp?league=CF&specialeventname=2015+BCS+Championship&wagertype=FUTURE&eventtime=]
-* (FiveDime)[http://www.oddsshark.com/ncaaf/odds/futures]
-* (TopBet)[http://www.oddsshark.com/ncaaf/odds/futures]
-* (Sportsbook)[https://www.sportsbook.ag/sbk/sportsbook4/www.sportsbook.ag/getodds5.xgi?categoryId=592]
+* [Bovada](http://sports.bovada.lv/sports-betting/football-futures.jsp)
+* [GT Bets](http://www.gtbets.eu/betting1.asp?league=CF&specialeventname=2015+BCS+Championship&wagertype=FUTURE&eventtime=)
+* [FiveDime](http://www.oddsshark.com/ncaaf/odds/futures)
+* [TopBet](http://www.oddsshark.com/ncaaf/odds/futures)
+* [Sportsbook](https://www.sportsbook.ag/sbk/sportsbook4/www.sportsbook.ag/getodds5.xgi?categoryId=592)
 
-I also created an (ensemble)[http://www.scholarpedia.org/article/Ensemble_learning].
+I also created an [ensemble](http://www.scholarpedia.org/article/Ensemble_learning).
 
 
 # KimonoLabs
-I use the (KimonoLabs)[https://www.kimonolabs.com/] scraper to collect the data.
+I use the [KimonoLabs](https://www.kimonolabs.com/) scraper to collect the data.
 
 
 
