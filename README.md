@@ -31,7 +31,7 @@ Represent the moneyline by x and the probability by p.  Then
 | E(p) = -x / (100 - x)  |  E(p) = 100 / (100 + x) |
 
 Here's an example:
-![alt text](https://github.com/jtwalsh0/NCAAF_probabilities/edit/master/moneyline.png "Moneyline Example")
+![alt text](https://raw.githubusercontent.com/jtwalsh0/NCAAF_probabilities/master/moneyline.png "Moneyline Example")
 
 South Carolina (the negative number) is favored over Texas A&M (the positive number).  The probability that South Carolina wins is 400 / (100 + 400) = 0.8, and the probability that Texas A&M wins is 100 / (100 + 325) = 0.24.
 
@@ -48,7 +48,7 @@ Fractional odds appear as a fraction.  The top is the number of dollars the bett
 | E(p) = y / (x + y) |
 
 Here are the fractional odds for the same South Carolina-Texas A&M game:
-![alt text](https://github.com/jtwalsh0/NCAAF_probabilities/edit/master/fractional.png "Fractional Example")
+![alt text](https://raw.githubusercontent.com/jtwalsh0/NCAAF_probabilities/master/fractional.png "Fractional Example")
 
 The probability that Texas A&M wins is 4 / 17 = 0.24, and the probability that South Carolina wins is 4 / 5 = 0.8 -- the same probabilities we got from the moneyline.  Again, we should divide by the sum of the probabilities to get the true probabilities. 
 
