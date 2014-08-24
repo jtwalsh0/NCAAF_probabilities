@@ -2,18 +2,17 @@ College Football Probabilities
 ===================
 
 This software creates an interactive webpage of college football probabilities using odds and lines from several online betting markets:
-* [Bovada](http://sports.bovada.lv/sports-betting/football-futures.jsp)
 * [GT Bets](http://www.gtbets.eu/betting1.asp?league=CF&specialeventname=2015+BCS+Championship&wagertype=FUTURE&eventtime=)
 * [FiveDime](http://www.oddsshark.com/ncaaf/odds/futures)
 * [TopBet](http://www.oddsshark.com/ncaaf/odds/futures)
 * [Sportsbook](https://www.sportsbook.ag/sbk/sportsbook4/www.sportsbook.ag/getodds5.xgi?categoryId=592)
 
-I also created an [ensemble](http://www.scholarpedia.org/article/Ensemble_learning) set of probabilities using a simple average of the probabilities from these five online markets.
+I also created an [ensemble](http://www.scholarpedia.org/article/Ensemble_learning) set of probabilities using a simple average of the probabilities from these four online markets.
 
 
 
 # How to Calculate the Probabilities
-Although there are several ways for bookies to express bets, the five markets I draw on use moneylines and fractional odds.  In this section, I explain how to derive probabilities from both.
+Although there are several ways for bookies to express bets, the four markets I draw on use moneylines and fractional odds.  In this section, I explain how to derive probabilities from both.
 
 
 ## Moneyline
