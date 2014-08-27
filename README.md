@@ -37,7 +37,7 @@ South Carolina (the negative number) is favored over Texas A&M (the positive num
 Note that those probabilities sum to more than 1.  That extra is the [vig](http://en.wikipedia.org/wiki/Vigorish).  Remove the vig by dividing each probability by the sum of the probabilities.  In the above case, South Carolina's probability is 0.77 and Texas A&M's is 0.23.
 
 
-## Fractional odds:
+## Fractional odds
 Fractional odds appear as a fraction.  The top is the number of dollars the better can win if he bets the bottom number of dollars.  Again assume risk neutrality and a fully informed market.  With fractional odds of x / y, then
 
 | E[bet] = 0 |
