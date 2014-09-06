@@ -283,7 +283,6 @@ Teams <- matrix(c("Air Force", NA,
 
 
 
-ls()
 
 ## COMBINE PROBABILITIES INTO SINGLE OBJECT
   Teams <- data.frame(Team = unique(Teams[,1]))

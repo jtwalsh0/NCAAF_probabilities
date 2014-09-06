@@ -65,7 +65,7 @@ shinyServer(function(input, output) {
                ' ET)</a> </li>',
                
                '<li> <a href="http://www.oddsshark.com/ncaaf/odds/futures">5Dimes (',
-               as.character(update$last.OddsShark.update.time),
+               as.character(update$last.FiveDimes.update.time),
                ' ET)</a> </li> ',
                
                '<li> <a href="http://www.gtbets.eu/betting1.asp?league=CF&specialeventname=2015+BCS+Championship&wagertype=FUTURE&eventtime=">GT Bets (',
@@ -77,7 +77,7 @@ shinyServer(function(input, output) {
                ' ET)</a> </li> ',
 
                '<li> <a href="http://www.oddsshark.com/ncaaf/odds/futures">TopBet (',
-               as.character(update$last.OddsShark.update.time),
+               as.character(update$last.FiveDimes.update.time),
                ' ET)</a> </li> ',
                
                '<li> <a href="http://www.scholarpedia.org/article/Ensemble_learning">Ensemble is the average of these sources</a> </li> ',
