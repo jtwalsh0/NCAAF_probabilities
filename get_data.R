@@ -201,7 +201,7 @@ Teams <- matrix(c("Air Force", NA,
   # Keep only important variables
   bovada <- subset(x=bovada, select=c("Team", "bovada.probability"))
 
-
+View(bovada)
 
 
 
@@ -337,7 +337,7 @@ write.csv(x = data,
 
 
   # Last Bovada update
-  temp1 <- fromJSON(json_str = getURL('https://www.kimonolabs.com/api/efkrwgr4?apikey=13ff6ad50d64d091e0a23328afd5c04e'))$lastsuccess
+  temp1 <- fromJSON(json_str = getURL('https://www.kimonolabs.com/api/6dddbpb8?apikey=13ff6ad50d64d091e0a23328afd5c04e'))$lastsuccess
   temp2 <- strptime(x = substr(temp1, start = 5, stop = 24),
                     format = "%b %d %Y %T",
                     tz = "GMT")
