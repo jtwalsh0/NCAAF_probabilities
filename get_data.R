@@ -201,7 +201,7 @@ Teams <- matrix(c("Air Force", NA,
   # Keep only important variables
   bovada <- subset(x=bovada, select=c("Team", "bovada.probability"))
 
-View(bovada)
+
 
 
 

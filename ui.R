@@ -20,7 +20,7 @@ shinyUI(fluidPage(
                   selected = 6),
       h6("Sources (time last updated):"),
       htmlOutput("urlText")
-      ),
+    ),
     
     mainPanel( 
       plotOutput("distPlot", height=1250) 
