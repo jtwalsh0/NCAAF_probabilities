@@ -270,9 +270,9 @@ View(bovada)
 
   # Calculate naive probabilities (includes the vig)
   odds.shark$naive.FiveDimes[odds.shark$FiveDimes > 0] <- 100 / (100 + odds.shark$FiveDimes[odds.shark$FiveDimes > 0])
-  odds.shark$naive.FiveDimes[odds.shark$FiveDimes < 0] <- abs(odds.shark$FiveDimes[odds.shark$FiveDimes < 0]) / (100 + abs(odds.shark$FiveDimes[odds.shark$FiveDimes > 0]))
+  odds.shark$naive.FiveDimes[odds.shark$FiveDimes < 0] <- odds.shark$FiveDimes[odds.shark$FiveDimes < 0] / (odds.shark$FiveDimes[odds.shark$FiveDimes < 0]-100)
   odds.shark$naive.topbet[odds.shark$TopBet > 0] <- 100 / (100 + odds.shark$TopBet[odds.shark$TopBet > 0])
-  odds.shark$naive.topbet[odds.shark$TopBet < 0] <- abs(odds.shark$TopBet[odds.shark$TopBet < 0]) / (100 + (odds.shark$TopBet[odds.shark$TopBet > 0]))
+  odds.shark$naive.topbet[odds.shark$TopBet < 0] <- odds.shark$TopBet[odds.shark$TopBet < 0] / (odds.shark$TopBet[odds.shark$TopBet < 0]-100)
 
   # Remove the vig
   odds.shark$FiveDimes.probability <- odds.shark$naive.FiveDimes / sum(odds.shark$naive.FiveDimes, na.rm=TRUE)
